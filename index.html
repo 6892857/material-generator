@@ -71,6 +71,7 @@ small{
     font-weight:bold;
     min-height:60px;
     word-break:break-all;
+    line-height:1.6;
 }
 
 .buttons{
@@ -418,6 +419,14 @@ function renderProperties(){
     generateDescription();
 }
 
+function escapeHtml(text){
+
+    return text
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;");
+}
+
 function generateDescription(){
 
     const subCategory =
@@ -436,28 +445,82 @@ function generateDescription(){
         )
         .forEach(item=>{
 
-        const value =
-            item.value.trim();
+            const value =
+                item.value.trim();
 
-        const unit =
-            item.dataset.unit || "";
+            const unit =
+                item.dataset.unit || "";
 
-        if(value){
+            if(value){
 
-            result.push(
-                value + unit
-            );
-        }
+                result.push(
+                    value + unit
+                );
+            }
+        });
 
-    });
+    const description =
+        result.join("-");
 
-    document
-        .getElementById(
+    const limit = 40;
+
+    const resultDiv =
+        document.getElementById(
             "result"
-        )
-        .innerText =
-            result.join("-");
+        );
 
+    const lengthDiv =
+        document.getElementById(
+            "lengthInfo"
+        );
+
+    if(description.length <= limit){
+
+        resultDiv.innerHTML =
+            escapeHtml(description);
+
+        lengthDiv.innerHTML =
+            `Length : ${description.length}/${limit}`;
+
+        lengthDiv.style.color =
+            "#107c41";
+    }
+    else{
+
+        const normalPart =
+            escapeHtml(
+                description.substring(
+                    0,
+                    limit
+                )
+            );
+
+        const overflowPart =
+            escapeHtml(
+                description.substring(
+                    limit
+                )
+            );
+
+        resultDiv.innerHTML =
+            `
+            ${normalPart}
+            <span style="
+                color:red;
+                font-weight:bold;">
+                ${overflowPart}
+            </span>
+            `;
+
+        lengthDiv.innerHTML =
+            `
+            Length : ${description.length}/${limit}
+            ⚠ OVER LIMIT
+            `;
+
+        lengthDiv.style.color =
+            "red";
+    }
 }
 
 document
@@ -473,12 +536,24 @@ function copyDescription(){
         .getElementById(
             "result"
         )
-        .innerText;
+        .innerText
+        .trim();
+
+    if(text.length > 40){
+
+        alert(
+            "Description exceeds 40 characters. Please shorten it before copying."
+        );
+
+        return;
+    }
 
     navigator.clipboard
         .writeText(text);
 
-    alert("Copied");
+    alert(
+        "Description copied successfully."
+    );
 }
 
 function filterProperties(){
