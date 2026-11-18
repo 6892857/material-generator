@@ -1,0 +1,3612 @@
+{
+  "Electronic Component": {
+    "Capacitor": {
+      "Tan CAP": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "Capacity#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "uF"
+          },
+          {
+            "name": "Rated voltage#",
+            "configuration": "Real",
+            "length": "xxxx.xxxx",
+            "unit": "V"
+          },
+          {
+            "name": "ESR#",
+            "configuration": "Real",
+            "length": "xxxx.xxxx",
+            "unit": "mΩ"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "Ceramic CAP": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "Medium material#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "Capacity#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "uF"
+          },
+          {
+            "name": "Tolerance#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "Rated voltage#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "AL CAP": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "Capacity#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "uF"
+          },
+          {
+            "name": "Rated voltage#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "RF Filter": {
+      "Ceramic": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "12",
+            "unit": ""
+          },
+          {
+            "name": "Abbreviation#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "LTCC",
+              "IPD"
+            ]
+          },
+          {
+            "name": "Functional description#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "AWF": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "12",
+            "unit": ""
+          },
+          {
+            "name": "Abbreviation#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "C-SAW",
+              "TC-SAW",
+              "TF-SAW",
+              "FBAR",
+              "SMR"
+            ]
+          },
+          {
+            "name": "Band#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Type Insertion Loss#",
+            "configuration": "String",
+            "length": "40",
+            "unit": ""
+          },
+          {
+            "name": "Functional description#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Transistor": {
+      "Diode": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Vrrm#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Ifav#",
+            "configuration": "Real",
+            "length": "xxx.xxx",
+            "unit": "A"
+          },
+          {
+            "name": "Vfm#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "TVS": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Cj#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "pF"
+          },
+          {
+            "name": "number of channels#",
+            "configuration": "Integer",
+            "length": "2",
+            "unit": ""
+          },
+          {
+            "name": "VRWM#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "ESD Diode": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Cj#",
+            "configuration": "Real",
+            "length": "xxxxx.xx",
+            "unit": "pF"
+          },
+          {
+            "name": "number of channels#",
+            "configuration": "Integer",
+            "length": "2",
+            "unit": ""
+          },
+          {
+            "name": "VRWM#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "LED": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Viewing Angle#",
+            "configuration": "Integer",
+            "length": "3",
+            "unit": ""
+          },
+          {
+            "name": "Power Dissipation#",
+            "configuration": "Real",
+            "length": "xxxxx.xx",
+            "unit": "mW"
+          },
+          {
+            "name": "Emitted Color#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "Triode": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "NPN",
+              "PNP"
+            ]
+          },
+          {
+            "name": "V (BR)CEO#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Ic#",
+            "configuration": "Real",
+            "length": "xxxxx.xx",
+            "unit": "mA"
+          },
+          {
+            "name": "PD#",
+            "configuration": "Real",
+            "length": "xxxxx.xx",
+            "unit": "mW"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "MOS": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "P",
+              "N"
+            ]
+          },
+          {
+            "name": "Vds#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Id#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "A"
+          },
+          {
+            "name": "Vgs#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "Zener": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Vz#@Iz",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Ptot#",
+            "configuration": "Real",
+            "length": "xxxxx.xx",
+            "unit": "mW"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Connector": {
+      "WTB Conn": {
+        "properties": [
+          {
+            "name": "SMT/DIP#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "SMT",
+              "DIP"
+            ]
+          },
+          {
+            "name": "Direction#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "90",
+              "180"
+            ]
+          },
+          {
+            "name": "Pin Number#",
+            "configuration": "String",
+            "length": "4",
+            "unit": ""
+          },
+          {
+            "name": "Pitch#",
+            "configuration": "String",
+            "length": "5",
+            "unit": ""
+          },
+          {
+            "name": "Current#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "A"
+          },
+          {
+            "name": "Coating#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Specification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "IO Conn": {
+        "properties": [
+          {
+            "name": "Conn Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "USB",
+              "DC",
+              "Ethernet",
+              "HDMI",
+              "Serial Port",
+              "Audio",
+              "Battery"
+            ]
+          },
+          {
+            "name": "SMT/DIP#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "SMT",
+              "DIP"
+            ]
+          },
+          {
+            "name": "Direction#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "90",
+              "180"
+            ]
+          },
+          {
+            "name": "Male/Female#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "M",
+              "F"
+            ]
+          },
+          {
+            "name": "Pin Number#",
+            "configuration": "String",
+            "length": "4",
+            "unit": ""
+          },
+          {
+            "name": "Current#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "A"
+          },
+          {
+            "name": "Coating#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Specification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "BTB Conn": {
+        "properties": [
+          {
+            "name": "Male/Female#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "M",
+              "F"
+            ]
+          },
+          {
+            "name": "Pin Number#",
+            "configuration": "String",
+            "length": "5",
+            "unit": ""
+          },
+          {
+            "name": "Pitch#",
+            "configuration": "String",
+            "length": "5",
+            "unit": ""
+          },
+          {
+            "name": "Fit Height#",
+            "configuration": "String",
+            "length": "5",
+            "unit": ""
+          },
+          {
+            "name": "Current#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "A"
+          },
+          {
+            "name": "Coating#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Specialization#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Spring": {
+        "properties": [
+          {
+            "name": "SMT/DIP#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "SMT",
+              "DIP"
+            ]
+          },
+          {
+            "name": "Operational height#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "Pin Number#",
+            "configuration": "String",
+            "length": "4",
+            "unit": ""
+          },
+          {
+            "name": "Contact Force#",
+            "configuration": "Integer",
+            "length": "4",
+            "unit": "g"
+          },
+          {
+            "name": "Current#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "A"
+          },
+          {
+            "name": "Coating#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Specification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "FPC Conn": {
+        "properties": [
+          {
+            "name": "Direction#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "90°",
+              "180°"
+            ]
+          },
+          {
+            "name": "Pin Number#",
+            "configuration": "String",
+            "length": "4",
+            "unit": ""
+          },
+          {
+            "name": "Pitch#",
+            "configuration": "String",
+            "length": "5",
+            "unit": ""
+          },
+          {
+            "name": "Height#",
+            "configuration": "String",
+            "length": "5",
+            "unit": ""
+          },
+          {
+            "name": "Lock type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Front",
+              "Back",
+              "ZIF"
+            ]
+          },
+          {
+            "name": "Coating#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Specification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Card Slot": {
+        "properties": [
+          {
+            "name": "Card Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "SCR",
+              "SIM",
+              "TF",
+              "SD"
+            ]
+          },
+          {
+            "name": "Card specification#",
+            "configuration": "",
+            "length": "",
+            "unit": ""
+          },
+          {
+            "name": "Lock type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Push-push",
+              "Flip",
+              "ZIF",
+              "Tray"
+            ]
+          },
+          {
+            "name": "Coating#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Specialization#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Multi Conn": {
+        "properties": [
+          {
+            "name": "Description#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          },
+          {
+            "name": "Specialization#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          }
+        ]
+      },
+      "RF socket": {
+        "properties": [
+          {
+            "name": "SMT/DIP#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "SMT",
+              "DIP"
+            ]
+          },
+          {
+            "name": "Frequency#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Size#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Specification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "IC": {
+      "Amp": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Supply Voltage#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Slew Rate#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Gain-Bandwidth Product#",
+            "configuration": "Real",
+            "length": "xxxxx.xxxx",
+            "unit": "MHz"
+          },
+          {
+            "name": "Output characteristics#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Motor Driver": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Voltage#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Model Abbreviation#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Audio Amp": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Voltage#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Power Dissipation#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "W"
+          },
+          {
+            "name": "Gain#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Audio codec IC": {
+        "properties": [
+          {
+            "name": "Applicable platforms#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "SCR DRV": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Voltage#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "HS Switch": {
+        "properties": [
+          {
+            "name": "Switch type#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Supply Voltage#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Switch On Resistance#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "Ω"
+          },
+          {
+            "name": "Bandwidth#",
+            "configuration": "Real",
+            "length": "xxxxx.xxxx",
+            "unit": "MHz"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Sensor": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Function#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "G-Sensor",
+              "Optical",
+              "ALS",
+              "Proximity",
+              "ALS+PS",
+              "current"
+            ]
+          },
+          {
+            "name": "Voltage#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Interface#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "I2C",
+              "SPI",
+              "UART",
+              "Voltage",
+              "Others",
+              "I2C/SPI"
+            ]
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Logic": {
+        "properties": [
+          {
+            "name": "Function description#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Number of logic gates #",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "Supply Voltage Range#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Processor": {
+        "properties": [
+          {
+            "name": "Model Abbreviation#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Number Of Cores#",
+            "configuration": "Integer",
+            "length": "2",
+            "unit": ""
+          },
+          {
+            "name": "Frequency(max)#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Bit Width#",
+            "configuration": "Integer",
+            "length": "4",
+            "unit": "bit"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Encrypt": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Model Abbreviation#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Encryption type#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Voltage#",
+            "configuration": "",
+            "length": "",
+            "unit": "V"
+          },
+          {
+            "name": "Current #",
+            "configuration": "",
+            "length": "",
+            "unit": "mA"
+          },
+          {
+            "name": "Interface#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Interface": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Type#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Supply Voltage Range#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Rate#",
+            "configuration": "Real",
+            "length": "xxxxx.xxxx",
+            "unit": "Mbps"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "ETH": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "9",
+            "unit": ""
+          },
+          {
+            "name": "Supplier abbreviation#",
+            "configuration": "String",
+            "length": "18",
+            "unit": ""
+          },
+          {
+            "name": "Function#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "PHY",
+              "MAC",
+              "PHY&MAC",
+              "SWITCH"
+            ]
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "RF Chip": {
+        "properties": [
+          {
+            "name": "Technology Type#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Abbreviation#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Platform#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Qualcomm",
+              "MTK",
+              "UNISOC",
+              "ROCKCHIP",
+              "Common",
+              "Realtek",
+              "ST",
+              "Cypress",
+              "Telink",
+              "Others"
+            ]
+          },
+          {
+            "name": "Support Bands#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "RF FEM": {
+        "properties": [
+          {
+            "name": "Technology Type#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Abbreviation#",
+            "configuration": "String",
+            "length": "14",
+            "unit": ""
+          },
+          {
+            "name": "Control Interface#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "MIPI",
+              "GPIO"
+            ]
+          },
+          {
+            "name": "Function description#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          }
+        ]
+      },
+      "RF Amp": {
+        "properties": [
+          {
+            "name": "Technology Type#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Abbreviation#",
+            "configuration": "String",
+            "length": "14",
+            "unit": ""
+          },
+          {
+            "name": "Platform#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Qualcomm",
+              "MTK",
+              "UNISOC",
+              "ROCKCHIP",
+              "Common",
+              "Others"
+            ]
+          },
+          {
+            "name": "Voltage#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Control Interface#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "MIPI",
+              "GPIO"
+            ]
+          },
+          {
+            "name": "Function description#",
+            "configuration": "String",
+            "length": "100",
+            "unit": ""
+          }
+        ]
+      },
+      "LNA": {
+        "properties": [
+          {
+            "name": "Technology Type#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Abbreviation#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Support Bands or Frequency #",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Gain#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "dB"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "RF Swtich": {
+        "properties": [
+          {
+            "name": "Abbreviation#",
+            "configuration": "String",
+            "length": "14",
+            "unit": ""
+          },
+          {
+            "name": "Support Bands or Frequency #",
+            "configuration": "String",
+            "length": "14",
+            "unit": ""
+          },
+          {
+            "name": "Switch Tpye#",
+            "configuration": "String",
+            "length": "14",
+            "unit": ""
+          },
+          {
+            "name": "Control Interface#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Cless": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Voltage#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Chip model#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Memory": {
+      "FLASH": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Flash Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "NOR-BOT",
+              "NOR-TOP",
+              "NAND",
+              "eMMC",
+              "UFS",
+              "SPI"
+            ]
+          },
+          {
+            "name": "Capacities#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Storage speed#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Supply Voltage#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "SRAM": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Capacities#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Voltage#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Bus width#",
+            "configuration": "Integer",
+            "length": "4",
+            "unit": "bit"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "EEPROM": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Capacities#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Voltage#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Bus width#",
+            "configuration": "Integer",
+            "length": "4",
+            "unit": "bit"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "SDRAM": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "SDRAM Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "SDR",
+              "DDR2",
+              "DDR3",
+              "DDR3L",
+              "DDR4",
+              "DDR5",
+              "LPDDR2",
+              "LPDDR3",
+              "LPDDR4",
+              "LPDDR4x",
+              "LPDDR5",
+              "LPDDR5x"
+            ]
+          },
+          {
+            "name": "Capacities#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Data rate#",
+            "configuration": "Integer",
+            "length": "6",
+            "unit": "Mbps"
+          },
+          {
+            "name": "Bus width#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "MCP": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "SDRAM Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "SDR",
+              "DDR2",
+              "DDR3",
+              "DDR3L",
+              "DDR4",
+              "DDR5",
+              "LPDDR2",
+              "LPDDR3",
+              "LPDDR4",
+              "LPDDR4x",
+              "LPDDR5",
+              "LPDDR5x"
+            ]
+          },
+          {
+            "name": "SDRAM Capacities#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "SDRAM Bus width#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Flash Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "NOR-BOT",
+              "NOR-TOP",
+              "NAND",
+              "eMMC",
+              "UFS"
+            ]
+          },
+          {
+            "name": "Flash Capacities#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Power Chip": {
+      "Charger": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Number of Battery Cells#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "1",
+              "2",
+              "Others"
+            ]
+          },
+          {
+            "name": "Model Abbreviation#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Switch/linear#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Switch",
+              "Linaear"
+            ]
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Voltage Detect": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Detection Voltage#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Model Abbreviation#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "LDO": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Input Voltage Range#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Output Voltage#",
+            "configuration": "String",
+            "length": "12",
+            "unit": ""
+          },
+          {
+            "name": "Rated Output Current#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "A"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "DC-DC": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Input Voltage Range#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Rated Output Current#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "A"
+          },
+          {
+            "name": "Buck/Boost#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Buck",
+              "Boost",
+              "Buck&Boost"
+            ]
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "LED Driver": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Output Voltage Range#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Rated Output Current#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "A"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "PMU": {
+        "properties": [
+          {
+            "name": "Model Abbreviation#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Power Protect": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Model Abbreviation#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Input Voltage Range#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Fuel Gauge": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Number of Battery Cells#",
+            "configuration": "Integer",
+            "length": "2",
+            "unit": ""
+          },
+          {
+            "name": "Input Voltage Range#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Power Switch": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Model Abbreviation#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Current Limit Threshold#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Inductor": {
+      "Inductor": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Inductance Value#",
+            "configuration": "Real",
+            "length": "xxxxxx.xx",
+            "unit": "nH"
+          },
+          {
+            "name": "Inductance Tolerance#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "DC Resistance#",
+            "configuration": "Integer",
+            "length": "5",
+            "unit": "mΩ"
+          },
+          {
+            "name": "Rated Current#",
+            "configuration": "Real",
+            "length": "xx.xxx",
+            "unit": "A"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Ferrite": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Impedance at 100 MHz#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "DC Resistance#",
+            "configuration": "Real",
+            "length": "xx.xxx",
+            "unit": "Ω"
+          },
+          {
+            "name": "Rated Current#",
+            "configuration": "Real",
+            "length": "xx.xxx",
+            "unit": "A"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Filter": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Impedance at 100 MHz#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Rated Current#",
+            "configuration": "Integer",
+            "length": "5",
+            "unit": "mA"
+          },
+          {
+            "name": "Rated Voltage#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Trans": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Type#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "rate#",
+            "configuration": "Real",
+            "length": "xxxxx.xx",
+            "unit": "Mbps"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Quartz": {
+      "Crystal": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "NOMINAL FREQUENCY#",
+            "configuration": "Real",
+            "length": "xxx.xxxxxx",
+            "unit": "MHz"
+          },
+          {
+            "name": "LOAD CAPACITANCE#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "pF"
+          },
+          {
+            "name": "FREQUENCY TOLERANCE#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "ESR/Load Resistance#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Mech Switch": {
+      "Tactile Switch": {
+        "properties": [
+          {
+            "name": "SMT/DIP#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "SMT",
+              "DIP"
+            ]
+          },
+          {
+            "name": "Direction#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "90",
+              "180"
+            ]
+          },
+          {
+            "name": "Life cycle#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Resistor": {
+      "RES": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "POWER#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "RESISTANCE VALUE#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "Ω"
+          },
+          {
+            "name": "TOLERANCE#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Varistor": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Varistor Voltage#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Max. Working Voltage#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Typical Capacitance#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "pF"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Thermistor": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "NTC/PTC#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Resistance#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "B value/TRIP CURRENT#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "EMC Raw material": {
+      "NFC Ferrite": {
+        "properties": [
+          {
+            "name": "Relative permeability#",
+            "configuration": "String",
+            "length": "3",
+            "unit": ""
+          },
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Module": {
+      "WLM": {
+        "properties": [
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Function#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Model Abbreviation#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "SWLM": {
+        "properties": [
+          {
+            "name": "Connectivity#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Model Abbreviation#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Region#",
+            "configuration": "String",
+            "length": "5",
+            "unit": ""
+          },
+          {
+            "name": "Memory Capacities#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "HMM (Home made module)": {
+        "properties": [
+          {
+            "name": "Region#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "WF",
+              "AM",
+              "BRA",
+              "WU",
+              "CN",
+              "JP"
+            ]
+          },
+          {
+            "name": "Memory#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "2:2GB+16GB",
+              "3:3GB+32GB",
+              "4:4GB+32GB",
+              "5:4GB+64GB"
+            ]
+          },
+          {
+            "name": "HMM MPN#",
+            "configuration": "String",
+            "length": "25",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Virtual Part ": {
+      "Test Point": {
+        "properties": [
+          {
+            "name": "Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "PAD",
+              "PTH"
+            ]
+          },
+          {
+            "name": "Shape#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Circle",
+              "Donut",
+              "Square"
+            ]
+          },
+          {
+            "name": "Size#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          },
+          {
+            "name": "Place Bound#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          }
+        ]
+      },
+      "Manufacture": {
+        "properties": [
+          {
+            "name": "Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "MARK",
+              "PAD"
+            ]
+          },
+          {
+            "name": "Shape#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Circle",
+              "Square",
+              "Rectangle",
+              "Irregular"
+            ]
+          },
+          {
+            "name": "Size&Value#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          },
+          {
+            "name": "Place Bound#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          }
+        ]
+      },
+      "Assembly": {
+        "properties": [
+          {
+            "name": "Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "SCREW",
+              "HOLE",
+              "KEY-DOME"
+            ]
+          },
+          {
+            "name": "Shape#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Circle",
+              "Square",
+              "Rectangle",
+              "Oblong",
+              "Other"
+            ]
+          },
+          {
+            "name": "Size#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          },
+          {
+            "name": "Place Bound#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          }
+        ]
+      },
+      "Security": {
+        "properties": [
+          {
+            "name": "Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Carbon Switch",
+              "Dome Switch",
+              "Patch Board",
+              "Zebra Switch"
+            ]
+          },
+          {
+            "name": "Shape#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Circle",
+              "Rectangle",
+              "U-Shape",
+              "Other"
+            ]
+          },
+          {
+            "name": "PIN Quantity#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Component Size&Value#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Place Bound#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          }
+        ]
+      },
+      "Alternative Footprint": {
+        "properties": [
+          {
+            "name": "Type#",
+            "configuration": "String",
+            "length": "100",
+            "unit": ""
+          },
+          {
+            "name": "PIN Quantity#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Component Size&Value#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          }
+        ]
+      }
+    }
+  },
+  "Electromechanical": {
+    "Antenna": {
+      "WIFI/BT/GPS Ant": {
+        "properties": [
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "16",
+            "unit": ""
+          },
+          {
+            "name": "Antenna Model#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "W/B Ant1",
+              "W/B Ant2",
+              "W/B/G Ant1",
+              "W/B/G Ant2",
+              "GPS Ant1",
+              "GPS Ant2"
+            ]
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "4G Ant": {
+        "properties": [
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "16",
+            "unit": ""
+          },
+          {
+            "name": "Model#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Primary Ant1",
+              "Primary Ant2",
+              "Primary Ant3",
+              "Primary Ant4",
+              "Div Ant1",
+              "Div Ant2",
+              "Div Ant3",
+              "Div Ant4"
+            ]
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Cless Ant": {
+        "properties": [
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Connector Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Spring",
+              "Solder",
+              "Pogo pin"
+            ]
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "WC Ant": {
+        "properties": [
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Connector Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Spring",
+              "Solder",
+              "Pogo pin"
+            ]
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Printer": {
+      "TH Printer": {
+        "properties": [
+          {
+            "name": "THP Voltage#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Paper width#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Scanner and Camera": {
+      "Camera": {
+        "properties": [
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Pixels#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "0.3MP",
+              "1MP",
+              "2MP",
+              "5MP",
+              "8MP",
+              "13MP"
+            ]
+          },
+          {
+            "name": "Camera part number#",
+            "configuration": "String",
+            "length": "99",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Scan Engine": {
+        "properties": [
+          {
+            "name": "Resolution#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "640x480",
+              "1280x720",
+              "1920x1080",
+              "1600x1200",
+              "2592x1944"
+            ]
+          },
+          {
+            "name": "Interface#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "MIPI",
+              "Parallel"
+            ]
+          },
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Card": {
+      "Magnetic Head": {
+        "properties": [
+          {
+            "name": "Type#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "2 Track",
+              "3 Track"
+            ]
+          },
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Dsiplay and Touch": {
+      "Touch": {
+        "properties": [
+          {
+            "name": "Resolution Ratio#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Size#",
+            "configuration": "Real",
+            "length": "xxx.xxx",
+            "unit": "inch"
+          },
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Model Number#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "Display": {
+        "properties": [
+          {
+            "name": "Resolution Ratio#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Size#",
+            "configuration": "Real",
+            "length": "xxx.xxx",
+            "unit": "inch"
+          },
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Model Number#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "Display assy": {
+        "properties": [
+          {
+            "name": "Resolution Ratio#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Size#",
+            "configuration": "Real",
+            "length": "xxx.xxx",
+            "unit": "inch"
+          },
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Model Number#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "Cover lens": {
+        "properties": [
+          {
+            "name": "Size#",
+            "configuration": "Real",
+            "length": "xxx.xxx",
+            "unit": "inch"
+          },
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Material#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Soda-lime",
+              "AL-Si",
+              "PC",
+              "Acrylic",
+              "Other"
+            ]
+          },
+          {
+            "name": "Model Number#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Cable": {
+      "AC Cable": {
+        "properties": [
+          {
+            "name": "Pin Number#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "A-Plug#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "B-Plug#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Color#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Length#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Cable": {
+        "properties": [
+          {
+            "name": "A-Plug#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "B-Plug#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Color#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Length#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "Specialization#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          }
+        ]
+      },
+      "Wire": {
+        "properties": [
+          {
+            "name": "Pin Number#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "A-Plug#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "B-Plug#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Length#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "Associated Product#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Specialization#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          }
+        ]
+      },
+      "RF Cable": {
+        "properties": [
+          {
+            "name": "Length#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "A-Plug#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "B-Plug#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Impedance#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "FFC": {
+        "properties": [
+          {
+            "name": "Pin Number#",
+            "configuration": "String",
+            "length": "6",
+            "unit": ""
+          },
+          {
+            "name": "Pitch#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Length#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Contact direction#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Same side",
+              "Different side"
+            ]
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Coating#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "PCB&FPC": {
+      "PCB": {
+        "properties": [
+          {
+            "name": "Schematic Name#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          },
+          {
+            "name": "Revision#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Panel Quantity#",
+            "configuration": "Integer",
+            "length": "3",
+            "unit": ""
+          },
+          {
+            "name": "Thickness#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "FPC": {
+        "properties": [
+          {
+            "name": "Schematic Name#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          },
+          {
+            "name": "Revision#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Panel Quantity#",
+            "configuration": "Integer",
+            "length": "3",
+            "unit": ""
+          },
+          {
+            "name": "Thickness#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      },
+      "PET": {
+        "properties": [
+          {
+            "name": "Schematic Name#",
+            "configuration": "String",
+            "length": "30",
+            "unit": ""
+          },
+          {
+            "name": "Revision#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Panel Quantity#",
+            "configuration": "Integer",
+            "length": "3",
+            "unit": ""
+          },
+          {
+            "name": "Thickness#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "PSU": {
+      "PSU": {
+        "properties": [
+          {
+            "name": "AC terminal#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Multi",
+              "IEC:C6",
+              "IEC:C8",
+              "IEC:C14",
+              "US",
+              "UK",
+              "EU",
+              "KC",
+              "BIS",
+              "RCM",
+              "BR",
+              "IRAM",
+              "ARG",
+              "AUS",
+              "IND"
+            ]
+          },
+          {
+            "name": "Rated output#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "DC terminal#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "USB A",
+              "Type C",
+              "Micro usb",
+              "5.5*2.1",
+              "5.5*2.5",
+              "2.35*0.7",
+              "Line"
+            ]
+          },
+          {
+            "name": "Certification#",
+            "configuration": "",
+            "length": "",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Battery": {
+      "Coin Battery": {
+        "properties": [
+          {
+            "name": "Typical capacity#",
+            "configuration": "Integer",
+            "length": "4",
+            "unit": "mAh"
+          },
+          {
+            "name": "Nominal voltage#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Cell model#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Specialization#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          },
+          {
+            "name": "Assembly method#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "SMT",
+              "CONN",
+              "DWS"
+            ]
+          }
+        ]
+      },
+      "LIB": {
+        "properties": [
+          {
+            "name": "Cell Model#",
+            "configuration": "String",
+            "length": "8",
+            "unit": ""
+          },
+          {
+            "name": "Typical capacity#",
+            "configuration": "Integer",
+            "length": "4",
+            "unit": "mAh"
+          },
+          {
+            "name": "Nominal voltage#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "V"
+          },
+          {
+            "name": "Specialization#",
+            "configuration": "String",
+            "length": "20",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Acoustic": {
+      "Buzzer": {
+        "properties": [
+          {
+            "name": "Voltage#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Category#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Piezoelectric",
+              "Electromagnetic",
+              "Others"
+            ]
+          },
+          {
+            "name": "Resonant Frequency#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "kHz"
+          },
+          {
+            "name": "Size#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "Speaker": {
+        "properties": [
+          {
+            "name": "Category#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Dynamic",
+              "Piezoelectric",
+              "electrostatic",
+              "Others"
+            ]
+          },
+          {
+            "name": "Rated Power#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "W"
+          },
+          {
+            "name": "Impedance#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "Ω"
+          },
+          {
+            "name": "Resonant Frequency#",
+            "configuration": "Real",
+            "length": "xxxx.xx",
+            "unit": "kHz"
+          },
+          {
+            "name": "Size#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "MIC": {
+        "properties": [
+          {
+            "name": "Category#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "MEMS",
+              "ECM",
+              "Other"
+            ]
+          },
+          {
+            "name": "Impedance#",
+            "configuration": "Real",
+            "length": "xx.xx",
+            "unit": "kΩ"
+          },
+          {
+            "name": "Size#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "Motor": {
+      "Motor": {
+        "properties": [
+          {
+            "name": "TYPE#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "ERM",
+              "LRA"
+            ]
+          },
+          {
+            "name": "Package#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Rated voltage#",
+            "configuration": "Real",
+            "length": "xx.x",
+            "unit": "V"
+          },
+          {
+            "name": "Rated speed#",
+            "configuration": "String",
+            "length": "10",
+            "unit": "rpm"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    },
+    "SMT Metal": {
+      "Shield": {
+        "properties": [
+          {
+            "name": "TYPE#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Frame",
+              "Cover"
+            ]
+          },
+          {
+            "name": "Shape#",
+            "configuration": "LOV",
+            "length": "",
+            "unit": "",
+            "lov": [
+              "Rectangle",
+              "Special-shaped"
+            ]
+          },
+          {
+            "name": "Length#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "Width#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "Height#",
+            "configuration": "Real",
+            "length": "xxx.xx",
+            "unit": "mm"
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      },
+      "RF Slot": {
+        "properties": [
+          {
+            "name": "Fit material#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          },
+          {
+            "name": "Size#",
+            "configuration": "String",
+            "length": "15",
+            "unit": ""
+          },
+          {
+            "name": "Identification#",
+            "configuration": "String",
+            "length": "10",
+            "unit": ""
+          }
+        ]
+      }
+    }
+  }
+}
